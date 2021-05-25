@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- FullPage CSS -->
+  <link rel="stylesheet" href="import/fullpage1.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="import/bootstrap.min.css">
+
+  <title>Facultad de Ciencias Astronómicas y Geofísicas</title>
+</head>
+<body>
+
+  <!-- Información edificio -->
+  <div id="infoEdif" class="w-100 h-100 position-fixed fondo-astro top-0 left-0 z-index-3000">
+    <div class="container">
+      <div class="row py-5">
+        <div id="btnClose" class="bton col-1">
+          <img class="h-5-vh" src="data/img/btnBack.png">
+        </div>
+        <div class="col"></div>
+        <div class="col-4">
+          <div class="row col"><h2 class=" mx-auto">Sobre el edificio</h2></div>
+        </div>
+        <div class="col"></div>
+        <div class="col-1"></div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-4">
+
+          <div class="row col">
+            <p class=" text-justify">El predio completo tiene una superficie de 6 hectáreas. En el mismo hay varios pabellones y edificios que se distribuyen en un amplio parque arbolado.</p>
+          </div>
+
+          <div class="row col">
+            <h3 class="mt-3">Sobre el observatorio</h3>
+          </div>
+
+          <div class="row col">
+            <p class=" text-justify">Las construcciones del observatorio y sus edificios de apoyo fueron diseñados por el director del observatorio, Francisco Beuf; a excepción del Gran Ecuatorial (telescopio), obra del ingeniero y arquitecto Francis Ulric Courtois.</p>
+            <p class="mt-2 text-justify">Las obras comenzaron en 1884, dos años después de la fundación de la ciudad. El edificio fue terminado en 1889.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="row col">
+            <img id="miniMapa" class="w-100" src="data/img/miniMapa.png">
+            <img id="miniMapa1" class="w-100" src="data/img/miniMapa1.png">
+            <img id="miniMapa2" class="w-100" src="data/img/miniMapa2.png">
+            <img id="miniMapa3" class="w-100" src="data/img/miniMapa3.png">
+            <img id="miniMapa4" class="w-100" src="data/img/miniMapa4.png">
+            <img id="miniMapa5" class="w-100" src="data/img/miniMapa5.png">
+            <img id="miniMapa6" class="w-100" src="data/img/miniMapa6.png">
+            <img id="miniMapa7" class="w-100" src="data/img/miniMapa7.png">
+            <img id="miniMapa8" class="w-100" src="data/img/miniMapa8.png">
+            <img id="miniMapa9" class="w-100" src="data/img/miniMapa.png">
+            <img id="miniMapa10" class="w-100" src="data/img/miniMapa10.png">
+            <img id="miniMapa11" class="w-100" src="data/img/miniMapa11.png">
+            <img id="miniMapa12" class="w-100" src="data/img/miniMapa12.png">
+            <img id="miniMapa13" class="w-100" src="data/img/miniMapa13.png">
+            <img id="miniMapa14" class="w-100" src="data/img/miniMapa14.png">
+            <img id="miniMapa15" class="w-100" src="data/img/miniMapa15.png">
+            <img id="miniMapa16" class="w-100" src="data/img/miniMapa16.png">
+            <img id="miniMapa17" class="w-100" src="data/img/miniMapa17.png">
+            <img id="miniMapa18" class="w-100" src="data/img/miniMapa18.png">
+            <img id="miniMapa19" class="w-100" src="data/img/miniMapa19.png">
+            <img id="miniMapa20" class="w-100" src="data/img/miniMapa20.png">
+          </div>
+
+          <div class="row mt-4">
+            <h5 class="col-12">Información del edificio seleccionado</h5>
+            <p id="infoEdif0" class="col ml-3">(Seleccione uno de los edificios que se ven en el minimapa)</p>
+            <p id="infoEdif1" class="col-12 ml-3">Edificio principal</p>
+            <p id="infoEdif2" class="col-12 ml-3">Casas de huéspedes</p>
+            <p id="infoEdif3" class="col-12 ml-3">Pequeño ecuatorial</p>
+            <p id="infoEdif4" class="col-12 ml-3">Círculo meridiano</p>
+            <p id="infoEdif5" class="col-12 ml-3">Cúpula del telescopio reflector</p>
+            <p id="infoEdif6" class="col-12 ml-3">Edificio Gran Ecuatorial</p>
+            <p id="infoEdif7" class="col-12 ml-3">Cúpula del telescopio buscador de cometas</p>
+            <p id="infoEdif8" class="col-12 ml-3">Casilla de Anteojo Zenital Wanschaff</p>
+            <p id="infoEdif9" class="col-12 ml-3">Depósito</p>
+            <p id="infoEdif10" class="col-12 ml-3">Taller mecánico y carpintería</p>
+            <p id="infoEdif11" class="col-12 ml-3">Sismógrafo Vela</p>
+            <p id="infoEdif12" class="col-12 ml-3">Escuelitas (aulas)</p>
+            <p id="infoEdif13" class="col-12 ml-3">Departamento de electrónica</p>
+            <p id="infoEdif14" class="col-12 ml-3">Garages, depósito</p>
+            <p id="infoEdif15" class="col-12 ml-3">Departamentos de óptica, geomagnetísmo y aula de óptica</p>
+            <p id="infoEdif16" class="col-12 ml-3">Casa del encargado</p>
+            <p id="infoEdif17" class="col-12 ml-3">Gemelas</p>
+            <p id="infoEdif18" class="col-12 ml-3">Departamento de geofísica aplicada</p>
+            <p id="infoEdif19" class="col-12 ml-3">Cúpula del telescópio astrográfico</p>
+            <p id="infoEdif20" class="col-12 ml-3">Guardería de la UNLP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="edificios">
+      <div id="btnInfoEdif1" class="bton position-fixed"></div>
+      <div id="btnInfoEdif2" class="bton position-fixed"></div>
+      <div id="btnInfoEdif3" class="bton position-fixed"></div>
+      <div id="btnInfoEdif4" class="bton position-fixed"></div>
+      <div id="btnInfoEdif5" class="bton position-fixed"></div>
+      <div id="btnInfoEdif6" class="bton position-fixed"></div>
+      <div id="btnInfoEdif7" class="bton position-fixed"></div>
+      <div id="btnInfoEdif8" class="bton position-fixed"></div>
+      <div id="btnInfoEdif9" class="bton position-fixed"></div>
+      <div id="btnInfoEdif10" class="bton position-fixed"></div>
+      <div id="btnInfoEdif11" class="bton position-fixed"></div>
+      <div id="btnInfoEdif12" class="bton position-fixed"></div>
+      <div id="btnInfoEdif13" class="bton position-fixed"></div>
+      <div id="btnInfoEdif14" class="bton position-fixed"></div>
+      <div id="btnInfoEdif15" class="bton position-fixed"></div>
+      <div id="btnInfoEdif16" class="bton position-fixed"></div>
+      <div id="btnInfoEdif17" class="bton position-fixed"></div>
+      <div id="btnInfoEdif18" class="bton position-fixed"></div>
+      <div id="btnInfoEdif19" class="bton position-fixed"></div>
+      <div id="btnInfoEdif20" class="bton position-fixed"></div>
+    </div>
+  </div>
+
+  <div id="fullpage">
+
+    <!-- MAIN -->
+    <section class="section  h-100-vh" data-anchor="Main">
+      <!-- Header -->
+      <div class="container pt-5">
+        <div class="row">
+          <!-- Boton de info -->
+          <div id="btnInfoEdif" class="col-2 bton border-gray radio-10">
+            <div class="row col mt-3"><img class="w-12 mx-auto" src="data/img/btnIzq.png"></div>
+            <div class="row col mt-3"><p class="mx-auto">Sobre el edificio</p></div>
+          </div>
+          <!-- Titulo -->
+          <div class="col">
+            <h1 class="text-center">Facultad de ciencias astronomicas y geofisicas</h1>
+          </div>
+          <!-- Espacio vacio para centrar el titulo -->
+          <div class="col-2"></div>
+        </div>
+      </div>
+
+      <!-- Cuerpo -->
+      <div class="container py-5">
+        <!-- Linea de botones grandes del main -->
+        <div class="row">
+          <!-- Astronomia -->
+          <div class="col">
+            <a id="btnMain0" class="bton radio-10 border-white d-flex justify-content-center astroOff" href="#ExpAlumnos">
+              <img class="col p-0 w-27-vw radio-10 filtro-img" src="data/img/btnMainOn0.png">
+              <h3 class="position-absolute text-center mt-4">Alumnos de<br>astronomía</h3>
+              <img class="position-absolute top-6 w-25" src="data/img/btnAstroOn.png">
+            </a>
+          </div>
+          <!-- Geofisica -->
+          <div class="col">
+            <a id="btnMain1" class="bton radio-10 border-white d-flex justify-content-center geoOff" href="#ExpAlumnos">
+              <img class="col p-0 w-27-vw radio-10 filtro-img" src="data/img/btnMainOn1.png">
+              <h3 class="position-absolute text-center mt-4">Alumnos de<br>geofísica</h3>
+              <img class="position-absolute top-6 w-25" src="data/img/btnGeoOn.png">
+            </a>
+          </div>
+          <!-- Meteorologia -->
+          <div class="col">
+            <a id="btnMain2" class="bton radio-10 border-white d-flex justify-content-center meteoOff" href="#ExpAlumnos">
+              <img class="col p-0 w-27-vw radio-10 filtro-img" src="data/img/btnMainOn2.png">
+              <h3 class="position-absolute text-center mt-4">Alumnos de<br>meteorología</h3>
+              <img class="position-absolute top-6 w-25" src="data/img/btnMeteoOn.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- __________________________________________________________________________________________________________________ -->
+
+    <!-- EXPERIENCIAS DE ALUMNOS -->
+    <section class="section h-100-vh" data-anchor="ExpAlumnos">
+      <!-- Header -->
+      <div class="container pt-3">
+        <!-- Iconos -->
+        <div class="row">
+          <div class="col"></div>
+          <div class="bton col-1">
+            <img src="data/img/btnAstroOff.png" class="h-8-vh astroOff">
+            <img src="data/img/btnAstroOn.png" class="h-8-vh astroOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnGeoOff.png" class="h-8-vh geoOff">
+            <img src="data/img/btnGeoOn.png" class="h-8-vh geoOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnMeteoOff.png" class="h-8-vh meteoOff">
+            <img src="data/img/btnMeteoOn.png" class="h-8-vh meteoOn">
+          </div>
+          <div class="col"></div>
+        </div>
+        <!-- Nombre de seccion -->
+        <div class="row">
+          <h1 class="col text-center pt-4">EXPERIENCIA DE ALUMNOS</h1>
+        </div>
+      </div>
+
+      <!-- Cuerpo -->
+      <!-- Astronomia -->
+      <div id="entrevAstro" class="container mt-2">
+        <div class="row">
+          <div class="col row">
+            <a class="bton pt-1 col-12 row" href="#HorYCurs"><h3 class="text-left">HORARIOS Y CURSADAS</h3></a>
+
+            <div id="btnVidAstro0" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas le dedicas a la facu fuera del horario de cursada?</p>
+            </div>
+
+            <div id="btnVidAstro1" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas de cursada tenes?¿Cuántas materias estás cursando?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#TrayectoPersonal"><h3 class="w-100 text-left">TRAYECTO PERSONAL</h3></a>
+
+            <div id="btnVidAstro2" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿En qué año estas y qué temas estas viendo?</p>
+            </div>
+
+            <div id="btnVidAstro3" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Matemática es realmente un filtro?</p>
+            </div>
+
+            <div id="btnVidAstro4" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cómo fue tu trayecto por la carrera? ¿Qué te sorprendió?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#SalidaLaboral"><h3 class="w-100 text-left">SALIDA LABORAL</h3></a>
+
+            <div id="btnVidAstro5" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Qué sabés sobre la salida laboral de tu carrera?</p>
+            </div>
+
+            <div id="btnVidAstro6" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Aqué se suelen dedicar al recibirse de esta carrera?</p>
+            </div>
+          </div>
+
+          <!-- Videos astro  -->
+          <div class="col-4">
+            <div id="vidAstro0">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg0.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidAstro1">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg1.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidAstro2">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg2.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidAstro3">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg3.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidAstro4">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg4.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidAstro5">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg5.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+
+            <div id="vidAstro6">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Astro/AstroPreg6.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Geofisica -->
+      <div id="entrevGeo" class="container mt-2">
+        <div class="row">
+          <div class="col row">
+            <a class="bton pt-1 col-12" href="#HorYCurs"><h3 class="text-left">HORARIOS Y CURSADAS</h3></a>
+
+            <div id="btnVidGeo0" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas le dedicas a la facu fuera del horario de cursada?</p>
+            </div>
+
+            <div id="btnVidGeo1" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas de cursada tenes?¿Cuántas materias estás cursando?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#TrayectoPersonal"><h3 class="w-100 text-left">TRAYECTO PERSONAL</h3></a>
+
+            <div id="btnVidGeo2" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿En qué año estas y qué temas estas viendo?</p>
+            </div>
+
+            <div id="btnVidGeo3" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Matemática es realmente un filtro?</p>
+            </div>
+
+            <div id="btnVidGeo4" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cómo fue tu trayecto por la carrera? ¿Qué te sorprendió?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#SalidaLaboral"><h3 class="w-100 text-left">SALIDA LABORAL</h3></a>
+
+            <div id="btnVidGeo5" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Qué sabés sobre la salida laboral de tu carrera?</p>
+            </div>
+
+            <div id="btnVidGeo6" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Aqué se suelen dedicar al recibirse de esta carrera?</p>
+            </div>
+          </div>
+
+          <!-- Videos geo  -->
+          <div class="col-4">
+            <div id="vidGeo0">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg0.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidGeo1">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg1.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidGeo2">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg2.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidGeo3">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg3.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidGeo4">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg4.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidGeo5">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg5.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+
+            <div id="vidGeo6">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Geo/GeoPreg6.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Meteorología -->
+      <div id="entrevMeteo" class="container mt-2">
+        <div class="row">
+          <div class="col row">
+            <a class="bton pt-1 col-12" href="#HorYCurs"><h3 class="text-left">HORARIOS Y CURSADAS</h3></a>
+
+            <div id="btnVidMeteo0" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas le dedicas a la facu fuera del horario de cursada?</p>
+            </div>
+            <div id="btnVidMeteo1" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cuántas horas de cursada tenes?¿Cuántas materias estás cursando?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#TrayectoPersonal"><h3 class="w-100 text-left">TRAYECTO PERSONAL</h3></a>
+
+            <div id="btnVidMeteo2" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿En qué año estas y qué temas estas viendo?</p>
+            </div>
+            <div id="btnVidMeteo3" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Matemática es realmente un filtro?</p>
+            </div>
+            <div id="btnVidMeteo4" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Cómo fue tu trayecto por la carrera? ¿Qué te sorprendió?</p>
+            </div>
+
+            <a class="bton pt-1 col-12" href="#SalidaLaboral"><h3 class="w-100 text-left">SALIDA LABORAL</h3></a>
+
+            <div id="btnVidMeteo5" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Qué sabés sobre la salida laboral de tu carrera?</p>
+            </div>
+            <div id="btnVidMeteo6" class="bton pt-1 col-12 row">
+              <div class="col-1">
+                <img class="on w-100" src="data/img/pregOn.png">
+                <img class="off w-100" src="data/img/pregOff.png">
+              </div>
+              <p class="col text-left">¿Aqué se suelen dedicar al recibirse de esta carrera?</p>
+            </div>
+          </div>
+
+          <!-- Videos meteo  -->
+          <div class="col-4">
+            <div id="vidMeteo0">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg0.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidMeteo1">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg1.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#HorYCurs"><img class="h-5-vh m-auto bton" src="data/img/irHC.png"></a></div>
+            </div>
+
+            <div id="vidMeteo2">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg2.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidMeteo3">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg3.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidMeteo4">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg4.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#TrayectoPersonal"><img class="h-5-vh m-auto bton" src="data/img/irTP.png"></a></div>
+            </div>
+
+            <div id="vidMeteo5">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg5.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+
+            <div id="vidMeteo6">
+              <div class="h-60-vh mx-3 overflow-hidden d-flex justify-content-center">
+                <video autoplay loop>
+                  <source src="data/videos/Meteo/MeteoPreg6.mp4" type="video/mp4">
+                  </video>
+              </div>
+
+              <div class="row mt-3"><a class="col text-center" href="#SalidaLaboral"><img class="h-5-vh m-auto bton" src="data/img/irSL.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- __________________________________________________________________________________________________________________ -->
+
+    <!-- HORARIOS Y CURSADAS -->
+    <section class="section h-100-vh" data-anchor="HorYCurs">
+      <!-- Header -->
+      <div class="container pt-3">
+        <!-- Iconos -->
+        <div class="row">
+          <a class="bton col-1" href="#ExpAlumnos"><img src="data/img/btnEntrev.png" class="h-8-vh"></a>
+          <div class="col"></div>
+          <div class="bton col-1">
+            <img src="data/img/btnAstroOff.png" class="h-8-vh astroOff">
+            <img src="data/img/btnAstroOn.png" class="h-8-vh astroOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnGeoOff.png" class="h-8-vh geoOff">
+            <img src="data/img/btnGeoOn.png" class="h-8-vh geoOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnMeteoOff.png" class="h-8-vh meteoOff">
+            <img src="data/img/btnMeteoOn.png" class="h-8-vh meteoOn">
+          </div>
+          <div class="col"></div>
+          <a class="bton col-1" href="#Main"><img src="data/img/btnHome.png" class="h-8-vh"></a>
+        </div>
+        <!-- Nombre de seccion -->
+        <div class="row">
+          <h2 class="col text-center pt-4">HORARIOS Y CURSADAS</h2>
+        </div>
+      </div>
+
+
+      <!-- Astronomía -->
+      <div id="horasPlanAstro" class="container">
+        <div class="row mt-5">
+          <div class="col px-3 pt-3 fondo-osc radio-10 mr-2">
+            <h3 class="row m-auto">¿Qué estudia la astronomía?</h3>
+            <p class="row m-auto">Los cuerpo celestes, las teorías cosmológicas y el universo. Es decir, es física a nivel macro; física a "gran escala".</p>
+          </div>
+
+          <div class="col row">
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Materias<br>obligatorias</h5>
+                <h2 class="col">34</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Duración estimada de la carrera</h5>
+                <h2 class="col">5 años</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Promedio de los egresados de los últimos años</h5>
+                <h2 class="col">9 años</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-7 pt-3 fondo-osc radio-10">
+            <h3>Ambitos de estudio de la carrera</h3>
+            <div class="row mt-3">
+              <!-- Primer acordion -->
+              <div id="ac1" class="col accordion">
+                <!-- Ciencias planetarias -->
+                <div id="item1-ac1" class="card-header bton" data-toggle="collapse" data-target="#cont-item1-ac1" aria-controls="cont-item1-ac1">
+                  <h5>Ciencias planetarias</h5>
+                </div>
+                <div id="cont-item1-ac1" class="collapse" aria-labelledby="item1-ac1" data-parent="#ac1">
+                  <div class="card-body">
+                    <p>Son el conjunto de materias interdisciplinares implicadas en el estudio de sistemas planetarios.</p>
+                  </div>
+                </div>
+                <!-- Cosmología -->
+                <div id="item2-ac1" class="card-header bton" data-toggle="collapse" data-target="#cont-item2-ac1" aria-controls="cont-item2-ac1">
+                  <h5>Cosmología</h5>
+                </div>
+                <div id="cont-item2-ac1" class="collapse" aria-labelledby="item2-ac1" data-parent="#ac1">
+                  <div class="card-body">
+                    <p>Estudia las leyes generales, el origen y la evolución del universo.</p>
+                  </div>
+                </div>
+                <!-- Dinámica -->
+                <div id="item3-ac1" class="card-header bton" data-toggle="collapse" data-target="#cont-item3-ac1" aria-controls="cont-item3-ac1">
+                  <h5>Dinámica</h5>
+                </div>
+                <div id="cont-item3-ac1" class="collapse" aria-labelledby="item3-ac1" data-parent="#ac1">
+                  <div class="card-body">
+                    <p>Describe la evolución en el tiempo de un sistema físico en relación a los motivos o causas que lo provocan.</p>
+                  </div>
+                </div>
+                <!-- Astrofísica -->
+                <div id="item5-ac1" class="card-header bton" data-toggle="collapse" data-target="#cont-item5-ac1" aria-controls="cont-item5-ac1">
+                  <h5>Astrofísica</h5>
+                </div>
+                <div id="cont-item5-ac1" class="collapse" aria-labelledby="item5-ac1" data-parent="#ac1">
+                  <div class="card-body">
+                    <p>Es el desarrollo y estudio de la física aplicada a la astronomía.</p>
+                  </div>
+                </div>
+                <!-- Astrometría -->
+                <div id="item6-ac1" class="card-header bton" data-toggle="collapse" data-target="#cont-item6-ac1" aria-controls="cont-item6-ac1">
+                  <h5>Astrometría</h5>
+                </div>
+                <div id="cont-item6-ac1" class="collapse" aria-labelledby="item6-ac1" data-parent="#ac1">
+                  <div class="card-body">
+                    <p>Se encarga de medir y estudiar la posición, paralajes y el movimiento propio de los astros.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Segundo acordion -->
+              <div id="ac2" class="col accordion">
+                <!-- Óptica -->
+                <div id="item1-ac2" class="card-header bton" data-toggle="collapse" data-target="#cont-item1-ac2" aria-controls="cont-item1-ac2">
+                  <h5>Óptica</h5>
+                </div>
+                <div id="cont-item1-ac2" class="collapse" aria-labelledby="item1-ac1" data-parent="#ac2">
+                  <div class="card-body">
+                    <p>Considera a la luz como una onda y explica algunos fenómenos que no se podrían explicar tomando la luz como un rayo.</p>
+                  </div>
+                </div>
+                <!-- Radioastronomía -->
+                <div id="item3-ac2" class="card-header bton" data-toggle="collapse" data-target="#cont-item3-ac2" aria-controls="cont-item3-ac2">
+                  <h5>Radioastronomía</h5>
+                </div>
+                <div id="cont-item3-ac2" class="collapse" aria-labelledby="item3-ac2" data-parent="#ac2">
+                  <div class="card-body">
+                    <p>Estudia los objetos celestes y los fenómenos astrofísicos midiendo su emisión de radiación electromagnética.</p>
+                  </div>
+                </div>
+                <!-- Espectroscopía -->
+                <div id="item5-ac2" class="card-header bton" data-toggle="collapse" data-target="#cont-item5-ac2" aria-controls="cont-item5-ac2">
+                  <h5>Espectroscopía</h5>
+                </div>
+                <div id="cont-item5-ac2" class="collapse" aria-labelledby="item5-ac2" data-parent="#ac2">
+                  <div class="card-body">
+                    <p>estudia la interacción entre la radiación electromagnética y la materia, con absorción o emisión de energía radiante.</p>
+                  </div>
+                </div>
+                <!-- Fotometría -->
+                <div id="item6-ac2" class="card-header bton" data-toggle="collapse" data-target="#cont-item6-ac2" aria-controls="cont-item6-ac2">
+                  <h5>Fotometría</h5>
+                </div>
+                <div id="cont-item6-ac2" class="collapse" aria-labelledby="item6-ac2" data-parent="#ac2">
+                  <div class="card-body">
+                    <p>Se encarga de la medida de la luz, como el brillo percibido por el ojo humano.</p>
+                  </div>
+                </div>
+                <!-- Mecácnica celeste -->
+                <div id="item7-ac2" class="card-header bton" data-toggle="collapse" data-target="#cont-item7-ac2" aria-controls="cont-item7-ac2">
+                  <h5>Mecácnica celeste</h5>
+                </div>
+                <div id="cont-item7-ac2" class="collapse" aria-labelledby="item7-ac2" data-parent="#ac2">
+                  <div class="card-body">
+                    <p>Estudia los movimientos de los cuerpos celestes en virtud de los efectos gravitatorios que ejercen sobre él otros cuerpos masivos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col ml-3 py-3 fondo-osc radio-10">
+            <div class="row">
+              <h3 class="col">Aspectos generales de cada año</h3>
+            </div>
+            <div class="row">
+              <div class="col m-auto">
+                <p class="text-right">Formación básica en matemática y física, con algunas materias como astronomía general, astronomía esférica.</p>
+              </div>
+              <div class="col-3"><img class="w-75" src="data/img/anios0.png"></div>
+            </div>
+            <div class="row mt-3">
+              <div class="col m-auto">
+                <p class="text-right">Formación básica en matemática y física, con algunas materias como astronomía general, astronomía esférica.</p>
+              </div>
+              <div class="col-3"><img class="w-75" src="data/img/anios1.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Geofísica -->
+      <div id="horasPlanGeo" class="container">
+        <div class="row mt-5">
+          <div class="col px-3 pt-3 fondo-osc radio-10 mr-2">
+            <h3 class="row m-auto">¿Qué estudia la geofísica?</h3>
+            <p class="row m-auto">Los comportamientos físicos que acontecen en la estructura terrestre desde internos hasta sus campos magnéticos exteriores.</p>
+          </div>
+
+          <div class="col row">
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Materias<br>obligatorias</h5>
+                <h2 class="col">34</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Duración estimada de la carrera</h5>
+                <h2 class="col">5 años</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Promedio de los egresados de los últimos años</h5>
+                <h2 class="col">8 - 9 años</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-7 pt-3 fondo-osc radio-10">
+            <h3>Ambitos de estudio de la carrera</h3>
+            <div class="row mt-3">
+              <!-- Primer acordion -->
+              <div id="geo-ac1" class="col accordion">
+                <!-- Geomagnetismo -->
+                <div id="geo-item1-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item1-ac1" aria-controls="geo-cont-item1-ac1">
+                  <h5>Geomagnetismo</h5>
+                </div>
+                <div id="geo-cont-item1-ac1" class="collapse" aria-labelledby="geo-item1-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Se ocupa del estudio del campo magnético terrestre, tanto de su generación como de su variación espacial y temporal.</p>
+                  </div>
+                </div>
+                <!-- Sismología -->
+                <div id="geo-item2-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item2-ac1" aria-controls="geo-cont-item2-ac1">
+                  <h5>Sismología</h5>
+                </div>
+                <div id="geo-cont-item2-ac1" class="collapse" aria-labelledby="geo-item2-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Se encarga del estudio de terremotos y la propagación de las ondas elásticas (sísmicas) que se generan en el interior y la superficie de la Tierra.</p>
+                  </div>
+                </div>
+                <!-- Geodesia -->
+                <div id="geo-item3-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item3-ac1" aria-controls="geo-cont-item3-ac1">
+                  <h5>Geodesia</h5>
+                </div>
+                <div id="geo-cont-item3-ac1" class="collapse" aria-labelledby="geo-item3-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Determina de forma matemática la figura y magnitud de la Tierra o de gran parte de ella, y se ocupa de construir los mapas correspondientes.</p>
+                  </div>
+                </div>
+                <!-- Geología -->
+                <div id="geo-item4-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item4-ac1" aria-controls="geo-cont-item4-ac1">
+                  <h5>Geología</h5>
+                </div>
+                <div id="geo-cont-item4-ac1" class="collapse" aria-labelledby="geo-item4-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Estudia el origen, formación y evolución de la Tierra, los materiales que la componen y su estructura.</p>
+                  </div>
+                </div>
+                <!-- Gravimetría -->
+                <div id="geo-item5-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item5-ac1" aria-controls="geo-cont-item5-ac1">
+                  <h5>Gravimetría</h5>
+                </div>
+                <div id="geo-cont-item5-ac1" class="collapse" aria-labelledby="item5-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Consiste en la medición del campo de gravedad. Se suele emplear para estudiar el campo de gravedad o las variaciones de densidad responsables de su variación.</p>
+                  </div>
+                </div>
+                <!-- Meteorología -->
+                <div id="geo-item6-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item6-ac1" aria-controls="geo-cont-item6-ac1">
+                  <h5>Meteorología</h5>
+                </div>
+                <div id="geo-cont-item6-ac1" class="collapse" aria-labelledby="geo-item6-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Estudian la dinámica de la atmósfera, el comportamiento del clima y temperatura del planeta debido al cambio climático global.</p>
+                  </div>
+                </div>
+                <!-- Metodos de prospección -->
+                <div id="geo-item7-ac1" class="card-header bton" data-toggle="collapse" data-target="#geo-cont-item7-ac1" aria-controls="geo-cont-item7-ac1">
+                  <h5>Metodos de prospección</h5>
+                </div>
+                <div id="geo-cont-item7-ac1" class="collapse" aria-labelledby="geo-item7-ac1" data-parent="#geo-ac1">
+                  <div class="card-body">
+                    <p>Investigación geotécnica del suelo que comprende toda la metodología utilizada para obtener información de las propiedades físicas del suelo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col ml-3 py-3 fondo-osc radio-10">
+            <div class="row">
+              <h3 class="col">Aspectos generales de cada año</h3>
+            </div>
+            <div class="row">
+              <div class="col m-auto">
+                <p class="text-right">Formación básica en matemática, física, geología.</p>
+              </div>
+              <div class="col-3"><img class="w-75" src="data/img/anios0.png"></div>
+            </div>
+            <div class="row mt-3">
+              <div class="col m-auto">
+                <p class="text-right">Materias propias de la Geofísica. Los alumnos participan en proyectos de investigación, tra<br>bajo de campo y manejo de moderno instru<br>mental.</p>
+              </div>
+              <div class="col-3"><img class="w-75" src="data/img/anios1.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Meteorología -->
+      <div id="horasPlanMeteo" class="container">
+        <div class="row mt-5">
+          <div class="col px-3 pt-3 fondo-osc radio-10 mr-2">
+            <h3 class="row m-auto">¿Qué estudia la meteorología?</h3>
+            <p class="row m-auto">Estudian la dinámica de la atmósfera, el comportamiento del clima y temperatura del planeta debido al cambio climático global.</p>
+          </div>
+
+          <div class="col row">
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Materias<br>obligatorias</h5>
+                <h2 class="col">29</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Duración estimada de la carrera</h5>
+                <h2 class="col">3/5 años</h2>
+              </div>
+            </div>
+
+            <div class="col mx-2 radio-10 border-white text-center d-flex justify-content-center">
+              <div class="row my-auto">
+                <h5 class="col-12">Promedio de los egresados de los últimos años</h5>
+                <h2 class="col">3 - 5 años</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-7 pt-3 fondo-osc radio-10">
+            <h3>Ambitos de estudio de la carrera</h3>
+            <div class="row mt-3">
+              <!-- Primer acordion -->
+              <div id="meteo-ac1" class="col accordion">
+                <!-- Introducción a las ciencias atmosféricas -->
+                <div id="meteo-item1-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item1-ac1" aria-controls="meteo-cont-item1-ac1">
+                  <h5>Introducción a las ciencias atmosféricas</h5>
+                </div>
+                <div id="meteo-cont-item1-ac1" class="collapse" aria-labelledby="meteo-item1-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Se ealizan estudios teóricos, observacionales y numéricos, en diversas áreas del conocimiento que incluyen meteorología, clima, variabilidad climática, cambio climático y física de nubes entre otros.</p>
+                  </div>
+                </div>
+                <!-- Física general -->
+                <div id="meteo-item2-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item2-ac1" aria-controls="meteo-cont-item2-ac1">
+                  <h5>Física general</h5>
+                </div>
+                <div id="meteo-cont-item2-ac1" class="collapse" aria-labelledby="meteo-item2-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Comprende una visión muy grande y poco concentrada de lo que es la física general (sin llegar a la física cuántica ni subatómica, aunque si se hablarán de partículas subatómicas).</p>
+                  </div>
+                </div>
+                <!-- Introducción a la dinámica de la atmósfera -->
+                <div id="meteo-item3-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item3-ac1" aria-controls="meteo-cont-item3-ac1">
+                  <h5>Introducción a la dinámica de la atmósfera</h5>
+                </div>
+                <div id="meteo-cont-item3-ac1" class="collapse" aria-labelledby="meteo-item3-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Integra el conjunto de procesos físicos o meteorológicos que se producen en el seno de la atmósfera terrestre.</p>
+                  </div>
+                </div>
+                <!-- Estadística aplicada -->
+                <div id="meteo-item4-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item4-ac1" aria-controls="meteo-cont-item4-ac1">
+                  <h5>Estadística aplicada</h5>
+                </div>
+                <div id="meteo-cont-item4-ac1" class="collapse" aria-labelledby="meteo-item4-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Se ocupa de inferir resultados sobre una población a partir de una o varias muestras.</p>
+                  </div>
+                </div>
+                <!-- Turbulencia atmosférica -->
+                <div id="meteo-item5-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item5-ac1" aria-controls="meteo-cont-item5-ac1">
+                  <h5>Gravimetría</h5>
+                </div>
+                <div id="meteo-cont-item5-ac1" class="collapse" aria-labelledby="meteo-item5-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Consiste en la medición del campo de gravedad. Se suele emplear para estudiar el campo de gravedad o las variaciones de densidad responsables de su variación.</p>
+                  </div>
+                </div>
+                <!-- Meteorología dinámica -->
+                <div id="meteo-item6-ac1" class="card-header bton" data-toggle="collapse" data-target="#meteo-cont-item6-ac1" aria-controls="meteo-cont-item6-ac1">
+                  <h5>Meteorología dinámica</h5>
+                </div>
+                <div id="meteo-cont-item6-ac1" class="collapse" aria-labelledby="meteo-item6-ac1" data-parent="#meteo-ac1">
+                  <div class="card-body">
+                    <p>Es el estudio de los movimientos en la atmósfera y su evolución temporal basada en los principios de la mecánica de fluidos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col ml-3 py-3 fondo-osc radio-10">
+            <div class="row">
+              <h3 class="col">Aspectos generales de cada año</h3>
+            </div>
+            <div class="row">
+              <div class="col m-auto">
+                <p class="text-right">Formación básica y avanzada de las materias propias de la carrera y ciencias de la atmos<br>fera, así como también inglés y computación.</p>
+              </div>
+              <div class="col-3"><img class="w-75" src="data/img/anios2.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- __________________________________________________________________________________________________________________ -->
+
+    <!-- TRAYECTO PEROSNAL-->
+    <section id="section" class="section" data-anchor="TrayectoPersonal">
+      <!-- Header -->
+      <div class="container pt-3">
+        <!-- Iconos -->
+        <div class="row">
+          <a class="bton col-1" href="#ExpAlumnos"><img src="data/img/btnEntrev.png" class="h-8-vh"></a>
+          <div class="col"></div>
+          <div class="bton col-1">
+            <img src="data/img/btnAstroOff.png" class="h-8-vh astroOff">
+            <img src="data/img/btnAstroOn.png" class="h-8-vh astroOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnGeoOff.png" class="h-8-vh geoOff">
+            <img src="data/img/btnGeoOn.png" class="h-8-vh geoOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnMeteoOff.png" class="h-8-vh meteoOff">
+            <img src="data/img/btnMeteoOn.png" class="h-8-vh meteoOn">
+          </div>
+          <div class="col"></div>
+          <a class="bton col-1" href="#Main"><img src="data/img/btnHome.png" class="h-8-vh"></a>
+        </div>
+        <!-- Nombre de seccion -->
+        <div class="row">
+          <h2 class="col text-center pt-4">TRAYECTO PERSONAL</h2>
+        </div>
+      </div>
+
+      <!-- Astrofísica -->
+      <div id="trayAstro" class="container mt-4">
+        <div class="row text-justify">
+          <!-- Comienzo carrera -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Cómo es el comienzo de carrera?</h4></div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traAstro0.png"></div>
+              <p class="col m-auto"><b>Astronomía general</b> como materia troncal</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <p class="col m-auto"><b>Vectores</b>, muy usado durante el comienzo de la carrera.</p>
+              <div class="col-3"><img class="h-5-vh" src="data/img/traAstro1.png"></div>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traAstro2.png"></div>
+              <p class="col m-auto">Debido a la gran cantidad de horas dentro de la facu, es importante <b>trabajar en grupo</b>.</p>
+            </div>
+          </div>
+
+          <!-- Que contenido esperar -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Qué contenido esperar?</h4></div>
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Astronomía esférica</b></h5>
+              <p class="col-12">cómo ubicar los astros, coordenadas y mapas.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Matemátiacs especiales</b></h5>
+              <p class="col-12">trabajo sobre números complejos.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Física III</b></h5>
+              <p class="col-12">electromagnetísmo y óptica.</p>
+            </div>
+          </div>
+
+          <!-- Matematica es filtro -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Matemática es filtro?</h4></div>
+            <div class="row mx-auto">
+              <div class="row my-4">
+                <h5 class="col-12"><b>Si</b></h5>
+                <p class="col-12">Es importante saber que hay mucha matemática y conceptos abstractos, y que esa es la manera de "observar" el espacio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Geofísica -->
+      <div id="trayGeo" class="container mt-4">
+        <div class="row text-justify">
+          <!-- Comienzo carrera -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Cómo es el comienzo de carrera?</h4></div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traGeo0.png"></div>
+              <p class="col m-auto">Dificil para algunos mayormente a causa de la <b>transición del secundario</b> en cuanto a materias de exactas.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <p class="col m-auto">Cada uno tiene sus <b>propios tiempos</b> y deben administrarlo de la mejor forma posible a causa de la exigencia de las cátedras.</p>
+              <div class="col-3"><img class="h-5-vh" src="data/img/traGeo1.png"></div>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traGeo2.png"></div>
+              <p class="col m-auto">Muchos se sienten <b>comodos e integrados</b> con el ambiente de la facultad, los profesores y los compañeros.</p>
+            </div>
+          </div>
+
+          <!-- Que contenido esperar -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Qué contenido esperar?</h4></div>
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Astronomía esférica</b></h5>
+              <p class="col-12">cómo ubicar los astros, coordenadas y mapas.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Matemátiacs especiales</b></h5>
+              <p class="col-12">trabajo sobre números complejos.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Física III</b></h5>
+              <p class="col-12">electromagnetísmo y óptica.</p>
+            </div>
+          </div>
+
+          <!-- Matematica es filtro -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Matemática es filtro?</h4></div>
+            <div class="row mx-auto">
+              <div class="row my-4">
+                <h5 class="col-12"><b>Más o menos</b></h5>
+                <p class="col-12">Puede ser chocante pero luego de la transición es más fácil mantener el ritmo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meteorología -->
+      <div id="trayMeteo" class="container mt-4">
+        <div class="row text-justify">
+          <!-- Comienzo carrera -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Cómo es el comienzo de carrera?</h4></div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traMeteo0.png"></div>
+              <p class="col m-auto">Grupos de estudiantes <b>enfocados</b> y con los mismos intereses.</p>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <p class="col m-auto"><b>Expectativas altas</b> e iniciativa para estudiar y trabajar.</p>
+              <div class="col-3"><img class="h-5-vh" src="data/img/traMeteo1.png"></div>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <div class="col-3"><img class="h-8-vh" src="data/img/traMeteo2.png"></div>
+              <p class="col m-auto">Profesores y alumnos muy <b>apasionados</b>.</p>
+            </div>
+          </div>
+
+          <!-- Que contenido esperar -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Qué contenido esperar?</h4></div>
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Inglés</b></h5>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Estadística</b></h5>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Introducción a la dinámica de la atmósfera</b></h5>
+            </div>
+
+            <div class="row my-4 mx-auto">
+              <h5 class="col-12"><b>Ámbito general</b></h5>
+              <p class="col-12">aplicar los conocimientos obtenidos en matemática y física en hacer modelos del viento y cómo se mueve el viento en el continente.</p>
+            </div>
+          </div>
+
+          <!-- Matematica es filtro -->
+          <div class="col mx-2 fondo-osc radio-10">
+            <div class="row mt-4 mx-auto"><h4 class="col text-center">¿Matemática es filtro?</h4></div>
+            <div class="row mx-auto">
+              <div class="row my-4">
+                <h5 class="col-12"><b>Más o menos</b></h5>
+                <p class="col-12">Puede resultar difícil, pero no está hacha para ser un filtro, depende del profesor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- __________________________________________________________________________________________________________________ -->
+
+    <!-- SALIDA LABORAL -->
+    <section id="section" class="section" data-anchor="SalidaLaboral">
+      <!-- Header -->
+      <div class="container pt-3">
+        <!-- Iconos -->
+        <div class="row">
+          <a class="bton col-1" href="#ExpAlumnos"><img src="data/img/btnEntrev.png" class="h-8-vh"></a>
+          <div class="col"></div>
+          <div class="bton col-1">
+            <img src="data/img/btnAstroOff.png" class="h-8-vh astroOff">
+            <img src="data/img/btnAstroOn.png" class="h-8-vh astroOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnGeoOff.png" class="h-8-vh geoOff">
+            <img src="data/img/btnGeoOn.png" class="h-8-vh geoOn">
+          </div>
+
+          <div class="bton col-1">
+            <img src="data/img/btnMeteoOff.png" class="h-8-vh meteoOff">
+            <img src="data/img/btnMeteoOn.png" class="h-8-vh meteoOn">
+          </div>
+          <div class="col"></div>
+          <a class="bton col-1" href="#Main"><img src="data/img/btnHome.png" class="h-8-vh"></a>
+        </div>
+        <!-- Nombre de seccion -->
+        <div class="row">
+          <h2 class="col text-center pt-4">SALIDA LABORAL</h2>
+        </div>
+      </div>
+
+
+      <!-- Astronomia -->
+      <div id="laburoAstro" class="container">
+        <div class="row mt-4">
+          <div class="col-1"></div>
+          <h4 class="col text-center">La salida laboral de astronomía está directamente realcionada con la ciencia básica, es decir, el ambito de investigación y por lo general la investigacion está enfocada en la realización de simulaciones digitales de sistemas estelares.</h4>
+          <div class="col-1"></div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">La salida laboral relacionada a la ciencia aplicada en astronomía no es amplia, pero se complementan significativamente el campo teórico con el observacional, que es el punto fuerte de esta carrera.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabAstro0.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">Hay proyectos de <b>desarrollo de nuevos intrumentos astronómicos</b>, como observatorios, para diversas especialidades: astronáutica, satélites, óptica, aceleradores de particulas, energías renovables, entre otros.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabAstro1.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">Se puede <b>trabajar junto con profesionales de otros ámbitos</b> como: informática, ingeniería, física, biología, matemática, antropología.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabAstro2.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">La <b>docencia</b> es una de las <b>salidas laborales más comunes</b> junto a la investigación pero pero con la contraparte de <b>no tener materias pedagógicas</b>.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabAstro3.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Geofisica -->
+      <div id="laburoGeo" class="container">
+        <div class="row mt-4">
+          <div class="col-1"></div>
+          <h4 class="col text-center">La salida laboral de geofísica está directamente realcionada con la ciencia aplicada, es decir, el ambito de aplicación del conocimiento como por ejemplo empresas, en donde el especialista se dedica a encontrar la manera más eficiente de conseguir recursos.</h4>
+          <div class="col-1"></div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">El campo de aplicación de los conocimientos de geofísica es amplio e incluye tanto el ambito de la <b>ciencia aplicada</b> (conocimiento aplicado y no teórico) como el de la <b>docencia</b>.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabGeo0.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">En el área privada se puede trabajar <b>encompañías petroleras, de recursos hídricos, minera</b>, principalmente.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabGeo1.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">En cuanto a la docencia, el egresado puede desarrollarse tanto en <b>universidades e institutos</b> nacionales e internacionales.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabGeo2.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">Es una de las áreas con mejor salida laboral en Argentina con un <b>porsentaje de inserción del 95%</b>.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabGeo3.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Meteorologia -->
+      <div id="laburoMeteo" class="container">
+        <div class="row mt-4">
+          <div class="col-1"></div>
+          <h4 class="col text-center">La salida laboral de meteorología está directamente realcionada con la ciencia aplicada, es decir, el ambito de aplicación del conocimiento como por ejemplo la utilización de metodos climáticos predictivos en función del servicio meteorológico.</h4>
+          <div class="col-1"></div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">El <b>servicion meteorológico</b> es la salida laboral por excelencia.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabMeteo0.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">El <b>campo</b> es otro sector que necesita profesionales: el <b>Instituto Nacional de Tecnología Agropecuaria (INTA)</b> incorpora pronosticadores para saber qué hacer con las cosechas.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabMeteo1.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">Las <b>fuerzas armadas</b> y la <b>marina</b> también requieren de profesionales meteorólogos para definir la viabilidad de sus operaciones.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabMeteo2.png">
+            </div>
+          </div>
+
+          <div class="col mx-3 py-3 fondo-osc row align-items-center radio-10">
+            <div class="col-8">
+              <p class="text-justify">En el sector privado las <b>aerolíneas</b> y <b>consultoras</b> también estan en búsqueda de profesionales meteorológicos.</p>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+              <img class="h-8-vh" src="data/img/incLabMeteo3.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- __________________________________________________________________________________________________________________ -->
+
+  <!-- fullPage -->
+  <script src="import/fullpage.min.js"></script>
+  <script>
+    new fullpage('#fullpage', {
+      autoScrolling:true,
+      verticalCentered: false
+    });
+  </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="import/jquery-3.3.1.slim.min.js"></script>
+  <script src="import/popper.min.js"></script>
+  <script src="import/bootstrap.min.js"></script>
+
+  <script src="import/jquery.min.js"></script>
+  <script src="import/jquery-3.4.1.min.js"></script>
+
+  <!-- Mi JQuery -->
+  <script src="index.js"></script>
+
+  <!-- Mi Css -->
+  <link rel="stylesheet" href="estilos.css">
+</body>
+</html>
